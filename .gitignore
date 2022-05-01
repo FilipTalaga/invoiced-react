@@ -1,0 +1,12 @@
+# packages
+
+node_modules
+
+# outputs
+
+dist
+storybook-static
+
+# logs
+
+.firebase
