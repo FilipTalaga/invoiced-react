@@ -18,6 +18,10 @@ module.exports = {
       overlay: true,
     },
   },
+  optimization: {
+    usedExports: false,
+    minimize: false,
+  },
   module: {
     rules: [
       {

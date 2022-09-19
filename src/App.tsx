@@ -1,1 +1,7 @@
-export const App = () => <div>Hello from the app.</div>;
+import { Button } from 'random-react-ui/core';
+
+export const App = () => (
+  <div>
+    <Button variant="primary">Click</Button>
+  </div>
+);
